@@ -3,6 +3,7 @@ local options = {
         lua = { "stylua" },
         css = { "prettier" },
         html = { "prettier" },
+        java = { "google-java-format" },
         python = { "isort", "black" },
     },
     formatters = {
