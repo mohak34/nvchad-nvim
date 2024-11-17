@@ -9,12 +9,14 @@ lspconfig.servers = {
     "lua_ls",
     "html",
     "cssls",
+    "emmet_ls",
     "pyright",
+    "tailwindcss",
     "ts_ls",
 }
 
 -- list of servers configured with default config.
-local default_servers = { "cssls", "pyright", "html", "ts_ls" }
+local default_servers = { "cssls", "pyright", "html", "ts_ls", "tailwindcss", "emmet_ls" }
 
 -- lsps with default config
 for _, lsp in ipairs(default_servers) do
